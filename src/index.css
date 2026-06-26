@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen Sans:wght@100..800&display=swap');
 
 :root {
-  --color-background: #d4cec4;
+  --color-background: #eddec4;
+  --color-page: #f0e6d3;
   --color-kraft: #c4a882;
   --color-sage: #8a9e85;
   --color-text: #3d2b1f;
