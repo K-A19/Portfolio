@@ -7,11 +7,14 @@ import Page from './pages/Page'
 function App() {
 
   return (
-    <HTMLFlipBook width={300} height={500}>
+    <div id="scrapbook">
+      <HTMLFlipBook width={550} height={500}>
       <Cover />
       <Page />
       <BackCover />
-    </HTMLFlipBook>
+      </HTMLFlipBook>
+    </div>
+    
   );
 }
 
