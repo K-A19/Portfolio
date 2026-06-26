@@ -3,4 +3,13 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    rotate: 50;
+}
+
+.page {
+
+}
+
+.cover {
+    background-color: var(--color-kraft);
 }

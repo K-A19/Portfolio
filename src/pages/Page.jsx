@@ -2,7 +2,7 @@ import React from "react"
 
 const Page = React.forwardRef((props, ref) => {
   return (
-    <div className="demoPage" ref={ref}>
+    <div className="Page" ref={ref}>
         {props.children}
     </div>
   );

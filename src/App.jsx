@@ -8,8 +8,9 @@ function App() {
 
   return (
     <div id="scrapbook">
-      <HTMLFlipBook width={550} height={500}>
+      <HTMLFlipBook width={550} height={500} showCover="true">
       <Cover />
+      <Page />
       <Page />
       <BackCover />
       </HTMLFlipBook>

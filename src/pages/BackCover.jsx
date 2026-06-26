@@ -2,7 +2,7 @@ import React from "react";
 
 const BackCover = React.forwardRef((props, ref) => {
   return (
-    <div className="demoPage" ref={ref}>
+    <div className="cover" ref={ref}>
       <h1>Contact Me</h1>
     </div>
   );

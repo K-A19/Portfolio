@@ -2,7 +2,7 @@ import React from "react";
 
 const Cover = React.forwardRef((props, ref) => {
   return (
-    <div className="demoPage" ref={ref}>
+    <div className="cover" ref={ref}>
       <h1>Kami Afolabi's Portfolio</h1>
     </div>
   );
