@@ -1,10 +1,18 @@
 import './App.css'
+import HTMLFlipBook from 'react-pageflip'
+import Cover from './pages/Cover'
+import BackCover from './pages/BackCover'
+import Page from './pages/Page'
 
 function App() {
 
   return (
-    <h1>Kami's Portfolio</h1>
-  )
+    <HTMLFlipBook width={300} height={500} size='fixed'>
+      <Cover />
+      <Page />
+      <BackCover />
+    </HTMLFlipBook>
+  );
 }
 
 export default App
