@@ -7,7 +7,7 @@ import Page from './pages/Page'
 function App() {
 
   return (
-    <HTMLFlipBook width={300} height={500} size='fixed'>
+    <HTMLFlipBook width={300} height={500}>
       <Cover />
       <Page />
       <BackCover />

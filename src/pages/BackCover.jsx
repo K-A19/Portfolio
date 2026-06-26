@@ -1,6 +1,6 @@
 import React from "react";
 
-const BackCover = React.forwardRef((ref) => {
+const BackCover = React.forwardRef((props, ref) => {
   return (
     <div className="demoPage" ref={ref}>
       <h1>Contact Me</h1>
