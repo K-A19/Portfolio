@@ -62,3 +62,21 @@
     top: 45%;
     transform: rotate(-7deg);
 }
+
+.sagecovertape {
+    position: absolute;
+    background-color: var(--color-sage);
+    width: 15%;
+    opacity: 0.5;
+    left: 68%;
+}
+
+#waterloologotape {
+    top: 17%;
+    transform: rotate(4deg);
+}
+
+#laurierlogotape {
+    top: 43%;
+    transform: rotate(-7deg);
+}

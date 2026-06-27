@@ -13,6 +13,8 @@ const Cover = React.forwardRef((props, ref) => {
       <div className="strip" id="portfoliostrip">&emsp;My Portfolio&emsp;</div>
       <img id="uwlogo" className="logo" src={uwlogo} alt="University of Waterloo's Logo" />
       <img id="laurierlogo" className="logo" src={laurierlogo} alt="Wilfrid Laurier University's Logo" />
+      <div className="sagecovertape" id="waterloologotape">&emsp;</div>
+      <div className="sagecovertape" id="laurierlogotape">&emsp;</div>
     </div>
   );
 });
