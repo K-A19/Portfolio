@@ -9,17 +9,17 @@
 #namestrip {
     background-color: var(--color-text);
     transform: rotate(1deg);
-    font-size: 180%;
+    font-size: 1.6vw;
     bottom: 32%;
-    left: 21%
+    left: 19%
 }
 
 #degreestrip {
     background-color: var(--color-sage);
-    transform: rotate(-1.5deg);
-    font-size: 130%;
+    transform: rotate(-2deg);
+    font-size: 1.1vw;
     bottom: 23%;
-    left: 12%;
+    left: 10%;
 }
 
 #portfoliostrip {
@@ -27,7 +27,7 @@
     font-family: var(--font-heading);
     color: var(--color-text);
     transform: rotate(-15deg);
-    font-size: 130%;
+    font-size: 1.1vw;
     bottom: 10%;
     left: 7%;
 }
@@ -38,7 +38,7 @@
     padding-bottom: 5%;
     background-color: white;
     position: absolute;
-    left: 21%;
+    left: 22%;
     top: 9%;
     transform: rotate(-3deg);
 }
