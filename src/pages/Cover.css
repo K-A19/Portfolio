@@ -1,23 +1,44 @@
-#namestrip {
+.strip {
     position: absolute;
     color: white;
-    background-color: rgb(101, 37, 5);
     font-family: var(--font-handwritten);
-    transform: rotate(3deg);
     padding: 1%;
-    width: max-content;
+    width: fit-content;
+}
+
+#namestrip {
+    background-color: var(--color-text);
+    transform: rotate(1deg);
     font-size: 180%;
     bottom: 32%;
-    left: 25%
+    left: 21%
+}
+
+#degreestrip {
+    background-color: var(--color-sage);
+    transform: rotate(-1.5deg);
+    font-size: 130%;
+    bottom: 23%;
+    left: 12%;
+}
+
+#portfoliostrip {
+    background-color: var(--color-page);
+    font-family: var(--font-heading);
+    color: var(--color-text);
+    transform: rotate(-15deg);
+    font-size: 130%;
+    bottom: 10%;
+    left: 7%;
 }
 
 #coverphoto {
-    width: 20%;
+    width: 25%;
     padding: 1%;
     padding-bottom: 5%;
     background-color: white;
     position: absolute;
-    left: 27%;
-    top: 15%;
+    left: 21%;
+    top: 9%;
     transform: rotate(-3deg);
 }

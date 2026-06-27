@@ -7,7 +7,7 @@
 }
 
 .closed {
-    transform: translateX(-250px) rotate(1deg)
+    transform: translateX(-20%) rotate(3deg)
 }
 
 .open {
@@ -39,4 +39,5 @@
 .cover {
     background-color: var(--color-kraft);
     position: relative;
+    overflow: hidden
 }

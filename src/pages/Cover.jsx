@@ -5,7 +5,9 @@ const Cover = React.forwardRef((props, ref) => {
   return (
     <div className="cover" ref={ref}>
       <img id="coverphoto" src={hackphoto} alt="Kami Afolabi" />
-      <div id="namestrip"> Kami Afolabi </div>
+      <div className="strip" id="namestrip"> Kami Afolabi </div>
+      <div className="strip" id="degreestrip"> UW / WLU Double Degree Student </div>
+      <div className="strip" id="portfoliostrip"> My Portfolio</div>
     </div>
   );
 });
