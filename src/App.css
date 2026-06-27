@@ -38,4 +38,5 @@
 
 .cover {
     background-color: var(--color-kraft);
+    position: relative;
 }
