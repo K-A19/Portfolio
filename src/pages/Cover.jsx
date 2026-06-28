@@ -7,6 +7,7 @@ import laurierlogo from '../assets/laurier_logo.png';
 const Cover = React.forwardRef((props, ref) => {
   return (
     <div className="cover" ref={ref}>
+      <div id="spine"></div>
       <img id="coverphoto" src={hackphoto} alt="Kami Afolabi" />
       <div className="strip" id="namestrip"> &emsp;Kami Afolabi&emsp; </div>
       <div className="strip" id="degreestrip">&emsp;UW / WLU Double Degree Student&emsp;</div>
