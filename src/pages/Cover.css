@@ -22,7 +22,7 @@
     background-color: var(--color-sage);
     transform: rotate(-2deg);
     font-size: 1.1vw;
-    bottom: 23%;
+    bottom: 22%;
     left: 10%;
 }
 
@@ -49,12 +49,12 @@
 
 #photocaption {
     font-family: var(--font-handwritten);
-    transform: rotate(-9deg);
+    transform: rotate(-8deg);
     position: absolute;
     color: var(--color-text);
     font-size: 0.8vw;
     left: 31%;
-    top: 48.5%;
+    top: 49%;
 
 }
 
@@ -105,5 +105,16 @@
     height: 100%;
     background-color: #8B6340;
     box-shadow: inset -3px 0 6px rgba(0,0,0,0.2);
+}
+
+#coverwashitape {
+    position: absolute;
+    background-color: beige;
+    width: 46%;
+    height: 15%;
+    opacity: 0.3;
+    right: -5%;
+    bottom: -3%;
+    transform: rotate(-25deg);
 }
 

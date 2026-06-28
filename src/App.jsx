@@ -18,8 +18,9 @@ function App() {
   const [width, setWidth] = useState(500)
 
   function calculateDimensions() {
-    setHeight(window.innerHeight * 0.7)
-    setWidth(window.innerWidth * 0.4)
+  setHeight(window.innerWidth * 0.35)
+  setWidth(window.innerWidth * 0.4)
+  console.log(height, width)
   }
 
   useEffect(() => {
