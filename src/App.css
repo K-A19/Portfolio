@@ -11,7 +11,8 @@
 }
 
 .open {
-    transform: rotate(0deg)
+    transform: rotate(0deg) scale(1.1);
+    filter: drop-shadow(-12px 12px 30px rgba(0,0,0,0.25));
 }
 
 .page {
@@ -39,5 +40,9 @@
 .cover {
     background-color: var(--color-kraft);
     position: relative;
-    overflow: hidden
+    overflow: hidden;   
+    box-shadow: 
+    -4px 4px 8px rgba(0,0,0,0.2),
+    -8px 8px 20px rgba(0,0,0,0.15),
+    -1px 1px 0px rgba(0,0,0,0.1);
 }

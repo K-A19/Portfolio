@@ -67,6 +67,7 @@
     position: absolute;
     background-color: var(--color-sage);
     width: 15%;
+    height: 5%;
     opacity: 0.5;
     left: 68%;
 }
