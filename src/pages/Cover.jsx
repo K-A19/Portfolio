@@ -28,11 +28,11 @@ const Cover = React.forwardRef((props, ref) => {
             <div className="sagecovertape" id="laurierlogotape">&emsp;</div>
             <div id="coverwashitape">&emsp;</div>
             {positions.map((pos, index) => (
-                <svg key={index} className="doodle-star" style={{...pos, position: 'absolute', width: '2%'}} viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="10" y1="2" x2="10" y2="18" stroke="#3d2b1f" strokeWidth="1.5" strokeLinecap="round"/>
-                    <line x1="2" y1="10" x2="18" y2="10" stroke="#3d2b1f" strokeWidth="1.5" strokeLinecap="round"/>
-                    <line x1="4" y1="4" x2="16" y2="16" stroke="#3d2b1f" strokeWidth="1.5" strokeLinecap="round"/>
-                    <line x1="16" y1="4" x2="4" y2="16" stroke="#3d2b1f" strokeWidth="1.5" strokeLinecap="round"/>
+                <svg key={index} className="doodle-star" style={{...pos, position: 'absolute', width: '3%'}} viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="10" y1="2" x2="10" y2="18" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round"/>
+                    <line x1="2" y1="10" x2="18" y2="10" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round"/>
+                    <line x1="4" y1="4" x2="16" y2="16" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round"/>
+                    <line x1="16" y1="4" x2="4" y2="16" stroke="#ffffff" strokeWidth="1.5" strokeLinecap="round"/>
                 </svg>
             ))}
         </div>
