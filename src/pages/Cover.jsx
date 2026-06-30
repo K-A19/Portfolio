@@ -9,7 +9,7 @@ const Cover = React.forwardRef((props, ref) => {
     const positions = [
         { top: '8%', left: '8%', transform: 'rotate(15deg)' },
         { top: '5%', right: '8%', transform: 'rotate(-10deg)' },
-        { bottom: '15%', right: '5%', transform: 'rotate(25deg)' },
+        { bottom: '14%', right: '5%', transform: 'rotate(25deg)' },
         { bottom: '8%', left: '35%', transform: 'rotate(-5deg)' },
         { top: '45%', left: '19%', transform: 'rotate(20deg)' },
     ]
@@ -22,8 +22,8 @@ const Cover = React.forwardRef((props, ref) => {
             <div className="strip" id="namestrip"> &emsp;Kami Afolabi&emsp; </div>
             <div className="strip" id="degreestrip">&emsp;UW / WLU Double Degree Student&emsp;</div>
             <div className="strip" id="portfoliostrip">&emsp;My Portfolio&emsp;</div>
-            <img id="uwlogo" className="logo" src={uwlogo} alt="University of Waterloo's Logo" />
-            <img id="laurierlogo" className="logo" src={laurierlogo} alt="Wilfrid Laurier University's Logo" />
+            <div className="logo-wrapper" id="uwlogo-wrapper"><img id="uwlogo" className="logo" src={uwlogo} alt="University of Waterloo's Logo" /></div>
+            <div className="logo-wrapper" id="laurierlogo-wrapper"><img id="laurierlogo" className="logo" src={laurierlogo} alt="Wilfrid Laurier University's Logo" /></div>
             <div className="sagecovertape" id="waterloologotape">&emsp;</div>
             <div className="sagecovertape" id="laurierlogotape">&emsp;</div>
             <div id="coverwashitape">&emsp;</div>
